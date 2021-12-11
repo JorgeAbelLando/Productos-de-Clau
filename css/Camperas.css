@@ -1,0 +1,13 @@
+#Camperas{
+    background-color: rgb(212, 31, 152);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+ }
+ #Camperas img{
+     width: 200px;
+     height: 200px;
+ }
+

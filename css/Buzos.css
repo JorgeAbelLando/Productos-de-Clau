@@ -1,0 +1,15 @@
+#Buzos{
+    background-color: rgb(212, 140, 31);
+    height: 100%;
+    width: 100%;
+     display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+#Buzos h2{
+   color: white; 
+}
+#Buzos img{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,52 @@
+@import url(./header.css);
+@import url(./Mates.css);
+@import url(./Buzos.css);
+@import url(./Camperas.css);
+@import url(./main.css);
+@import url(./Contacto.css);
+
+ :root{
+    --primary: #ECF3FF;
+    --secondary: #040522;
+ }  
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}  
+header,main{
+    display: flex;
+    width: 100%;
+    
+}
+header a,footer a {
+    color:var(--primary);
+    text-decoration: none;
+}
+header a,footer ul{
+    list-style: none;
+}  
+h2{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+main>div,section>div{
+    display: flex;
+    width: 800px;
+    height: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+div>img{
+    border-radius: 10px;
+}
+main>div img:hover,section>div img:hover{
+    transform: scale(1.15);
+}

@@ -1,0 +1,22 @@
+#Contacto{
+    background-color: rgb(240, 54, 8);
+    height: 15%;
+    width: 100%;
+    display: flex;   
+}
+#Menu2{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+strong{
+    display: flex;
+    align-items: flex-end;
+}
+#Menu2 li:hover{
+    background-color: #ECF3FF50;
+    transform: scale(1.25);
+    width: 15vw;
+    height: 100px;
+}
+

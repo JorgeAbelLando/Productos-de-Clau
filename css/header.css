@@ -1,0 +1,46 @@
+header{
+    background-color: rgb(240, 54, 8);
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: start;
+}
+header a{
+    color: darkgrey;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;  
+}  
+#Menu>ul{
+    display: flex;   
+}
+#Menu{
+    width: 100%;  
+}
+#Menu li:hover{
+    background-color: #ECF3FF50;
+    transform: scale(1.15);
+    width: 100px;
+    height: 30px;
+    border-radius: 25%;
+}
+li :hover {
+    color:var(--secondary);
+}
+#logo:hover{
+    border: 2px solid red;
+    transform: scale(1.15);
+}
+#logo{
+    border-radius: 50%;
+}
+
